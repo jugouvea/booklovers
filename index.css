@@ -220,6 +220,8 @@ marquee{
     border-width: 2px;
 }
 footer{
+    display: flex;
+    justify-content: center;
     margin-top: 22px;
     margin-bottom: 22px;
     background-color: #FDF5F4;
@@ -230,9 +232,10 @@ footer{
     height: 300px;
 }
 .texto-footer{
+    width: 340px;
     float: left;
     margin-left: 80px;
-    margin-top: 100px;
+    margin-top: 90px;
     color: #F0ADAA;
     font-size: 18px;
     
@@ -246,6 +249,7 @@ footer{
     width: 220px;
     float: left;
     margin-left: 70px;
+    margin-right: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
     
@@ -253,7 +257,7 @@ footer{
 .icones{
     margin-top: 120px;
     margin-bottom: 50px;
-    margin-left: 890px;
+    margin-right: 150px;
 
 }
 .icone{
